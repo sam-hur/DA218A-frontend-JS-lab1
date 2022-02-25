@@ -1,0 +1,31 @@
+
+.main{
+  font-family: kristen ITC;
+  position: relative;
+  text-align: center;
+  right: 300px;
+  left: 0;
+  height: 50px;
+}
+
+.main img{
+  position: absolute;
+  float: left;
+  min-width: 700px;
+  max-width: 700px;
+  z-index: 0;
+  box-shadow: 1px 2px 12px olive;
+  top: 100px;
+  margin-left: -333px;
+}
+
+.main embed{
+  position: absolute;
+  background-color: rgba(240, 248, 255, 0.95);
+  top: 120px;
+  width: 300px;
+  height: 356px;
+  border: 2px dotted #a52a2a;
+  margin-left: 40px;
+  z-index: 1;
+}

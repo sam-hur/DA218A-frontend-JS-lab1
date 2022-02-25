@@ -1,0 +1,30 @@
+<!-- people use this page to send messages -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Message Board</title>
+  <link rel="stylesheet" href="style/style-contactme.css">
+  <script src="script/script.js"></script>
+</head>
+
+<body>
+  <form class="form1" action="index.html" method="post">
+    <label for="name">Full Name</label>
+    <div id="d1"><input id="name" type="text" placeholder="Jane Doe"></div><br>
+    <label for="phone">Phone</label>
+    <div id="d2"><input id="phone" placeholder="10 digit number"></div><br>
+    <label for="email">Email</label>
+    <div id="d3"><input type="email" id="email" placeholder="jdoe@gmail.com"></div><br><br>
+    <label for="subject">Subject:</label>
+    <div id="d4"><input type="text" id="subject"></div>
+    <br><br>
+    <label for="msg">Your message:</label><br>
+    <textarea id="msg" rows="8" cols="50" maxlength="200"></textarea>
+    <br><br>
+    <button id="submit" type="button" onclick=validate()>Submit</button>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+*{
+  font-family: sans-serif;
+}
+
+div{
+  display: inline;
+}
+
+textarea{
+  resize: none;
+}
+
+form{
+  background-color: rgba(100, 149, 237, 0.7);
+  width: 410px;
+  padding: 10px 0 10px 10px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+#submit{
+  background-color: #bccccb; border-radius: 15%;
+}
+
+#d1{
+  margin-left: 26.5px;
+}
+
+#d2{
+  margin-left: 53px;
+}
+
+#d3{
+  margin-left: 59.5px;
+}
+
+#d4{
+  margin-left: 42px;
+}
